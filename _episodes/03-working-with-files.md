@@ -23,7 +23,7 @@ keypoints:
 
 ### Our data set: FASTQ files
 
-Now that we know how to navigate around our directory structure, lets
+Now that we know how to navigate around our directory structure, let's
 start working with our sequencing files. We did a sequencing experiment and 
 have two results files, which are stored in our `data` directory. 
 
@@ -340,8 +340,8 @@ bad read.
 ## Creating, moving, copying, and removing
 
 Now we can move around in the file structure, look at files, and search files. But what if we want to copy files or move
-them around or get rid of them? Most of the time, you can do these sorts of file manipulations without the command line,
-but there will be some cases (like when you're working with a remote computer like we are for this lesson) where it will be
+them around or get rid of them? Most of the time, you can do these sort of file manipulations without the command line,
+but there will be some cases (like when you're working with a remote computer as we are for this lesson) where it will be
 impossible. You'll also find that you may be working with hundreds of files and want to do similar manipulations to all 
 of those files. In cases like this, it's much faster to do these operations at the command line.
 
@@ -350,7 +350,7 @@ of those files. In cases like this, it's much faster to do these operations at t
 
 When working with computational data, it's important to keep a safe copy of that data that can't be accidentally overwritten or deleted. 
 For this lesson, our raw data is our FASTA files.  We don't want to accidentally change the original files, so we'll make a copy of them
-and change the file permissions so that we can read from, but not write tcdo, the files.
+and change the file permissions so that we can read from, but not write into, the files.
 
 First, let's make a copy of one of our FASTA files using the `cp` command. 
 
@@ -448,7 +448,7 @@ you will be asked whether you want to override your permission settings.
 
 
 If we want to modifiy a file without all the permissions you'll be asked if you want to override your file permissions.
-for example:
+For example:
 
 ~~~
 rm: remove write-protected regular file ‘example.fastq’? 
